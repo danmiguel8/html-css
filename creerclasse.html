@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creer classe</title>
+    <link rel="stylesheet" href="creerclasse.css">
+    <link rel="stylesheet" href="Accueil.css">
+</head>
+<body>
+    <main>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="">Ajout</a>
+                    <section class="schedule-barre">
+                        <ul>
+                            <li>
+                                <a href="ajouterprof.html">Professeur</a>
+                            </li>
+                            <li>
+                                <a href="creerclasse.html">Classe</a>
+                            </li>
+                            <li>
+                                <a href="affecterclasseprof.html">Affecter classe au prof</a>
+                            </li>
+                        </ul>
+                    </section>
+                </li>
+                <li>
+                    <a href="">
+                        Liste
+                    </a>
+                    <section>
+                        <ul class="schedule-barre">
+                            <li>
+                                <a href="listerprof.html">Prof</a>
+                            </li>
+                            <li>
+                                <a href="ListerdemandeEtudiant.html">Demande</a>
+                            </li>
+                            <li>
+                                <a href="listedemande.html">Demande de tous les étudiants</a>
+                            </li>
+                            <li>
+                                <a href="ListerEtudiants.html">Etudiants</a>
+                            </li>
+                            <li>
+                                <a href="listerclasse.html">Classe</a>
+                            </li>
+                        </ul>
+                    </section>
+                </li>
+                <li>
+                    <a href="inscription.html">Inscription</a>
+                </li>
+                <li>
+                    <a href="reinscription.html">Reinscription</a>
+                </li>
+                <li>
+                    <a href="gd.html">Faire demande</a>
+                </li>
+            </ul>
+        </nav>
+        <form action=""  class="form">
+            <h1>
+                Créer classe
+            </h1>
+            <div class="filiere">
+                <label for="">Filière</label>
+                <select name="" id="" required>
+                    <option value="" selected></option>
+                    <option value="">GLRS</option>
+                    <option value="">TTL</option>
+                    <option value="">CDSD</option>
+                    <option value="">IAGE</option>
+                    <option value="">ETSE</option>
+                </select>
+            </div>
+            <div class="niveau">
+                <label for="">Niveau</label>
+                <select name="" id="" required>
+                    <option value="" selected></option>
+                    <option value="">L1</option>
+                    <option value="">L2</option>
+                    <option value="">L3</option>
+                    <option value="">M1</option>
+                    <option value="">M2</option>
+                </select>
+            </div>
+            <div class="libelle">
+                <label for="">Libellé</label>
+                <input type="text">
+            </div>
+            <div class="bouton">
+                <input type="reset" value="Annuler">
+                <input type="submit" value="Créer">
+            </div>
+        </form>
+    </main>
+</body>
+</html>

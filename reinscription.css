@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    margin-top: 10rem;
+}
+h1{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.formulaire{
+    border: solid 1px black;
+    padding: 2rem;
+}
+.formulaire section{
+    padding-bottom: 1rem;
+}
+.mat, .name, .naiss, .as, .classe, .bouton{
+    display: flex;
+    justify-content: space-between;
+}
+.name input, .classe select, .bouton input, .as select{
+    width: 45%;
+}
+.adresse{
+    align-items: center;
+}

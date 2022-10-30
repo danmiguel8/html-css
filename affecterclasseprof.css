@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    margin-top: 10rem;
+}
+h1{
+    font-size: 2rem;
+    padding-bottom: 3rem;
+}
+.formulaire{
+    border: solid 1px black;
+    padding: 2rem;
+    margin-bottom: 8rem;
+}
+.mat,.prof,.a-s,.semestre,.check-classe,.check-classe2,.bouton{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+}
+.bouton input{
+    width: 45%;
+}

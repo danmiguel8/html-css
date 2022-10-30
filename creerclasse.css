@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    border: solid 2px black;
+    padding: 3rem;
+    margin-top: 10rem;
+}
+.form h1{
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.form div{
+    padding-bottom: 3rem;
+}
+.form select, .form .libelle input{
+    width: 50%;
+}
+.filiere, .niveau, .libelle{
+    display: flex;
+    justify-content: space-between;
+}
+.bouton{
+    display: flex;
+    justify-content: space-between;
+}
+.bouton input{
+    width: 40%;
+    font-size: 1rem;
+}

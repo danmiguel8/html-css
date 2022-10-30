@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    margin-top: 10rem;
+}
+h1{
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: 2rem;
+}
+.formulaire{
+    border: solid 1px black;
+    padding: 1rem;
+}
+.grade select, .name input{
+    width: 12vw;
+}
+.name, .grade, .check-module{
+    padding: 1rem 0rem 1rem 0rem;
+    display: flex;
+    justify-content: space-between;
+}
+.bouton{
+    display: flex;
+    padding-top: 2rem;
+    justify-content: space-between;
+}
+.bouton input{
+    width: 45%;
+}

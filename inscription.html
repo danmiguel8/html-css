@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="inscription.css">
+    <link rel="stylesheet" href="Accueil.css">
+</head>
+<body>
+    <main>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="">Ajout</a>
+                    <section class="schedule-barre">
+                        <ul>
+                            <li>
+                                <a href="ajouterprof.html">Professeur</a>
+                            </li>
+                            <li>
+                                <a href="creerclasse.html">Classe</a>
+                            </li>
+                            <li>
+                                <a href="affecterclasseprof.html">Affecter classe au prof</a>
+                            </li>
+                        </ul>
+                    </section>
+                </li>
+                <li>
+                    <a href="">
+                        Liste
+                    </a>
+                    <section>
+                        <ul class="schedule-barre">
+                            <li>
+                                <a href="listerprof.html">Prof</a>
+                            </li>
+                            <li>
+                                <a href="ListerdemandeEtudiant.html">Demande</a>
+                            </li>
+                            <li>
+                                <a href="listedemande.html">Demande de tous les étudiants</a>
+                            </li>
+                            <li>
+                                <a href="ListerEtudiants.html">Etudiants</a>
+                            </li>
+                            <li>
+                                <a href="listerclasse.html">Classe</a>
+                            </li>
+                        </ul>
+                    </section>
+                </li>
+                <li>
+                    <a href="inscription.html">Inscription</a>
+                </li>
+                <li>
+                    <a href="reinscription.html">Reinscription</a>
+                </li>
+                <li>
+                    <a href="gd.html">Faire demande</a>
+                </li>
+            </ul>
+        </nav>
+        <form action="" class="formulaire">
+            <h1>
+                Inscription
+            </h1>
+            <section class="annee-scolaire">
+                <label for="">Année scolaire</label>
+                <input type="text" value="2022-2023" readonly>
+            </section>
+            <section class="name">
+                <label for="">Nom et Prénom</label>
+                <input type="text">
+            </section>
+            <section class="naissance">
+                <label for="">Date naissance</label>
+                <input type="date">
+            </section>
+            <section class="adresse">
+                <label for="" class="center">Adresse</label>
+                <textarea name="" id="" cols="10" rows="4"></textarea>
+            </section>
+            <section class="classe">
+                <label for="">Classe</label>
+                <select name="" id="">
+                    <option value=""></option>
+                    <option value="">L1 GLRS</option>
+                    <option value="">L1 IAGE</option>
+                    <option value="">L2 TTL</option>
+                    <option value="">L2 MAE</option>
+                </select>
+            </section>
+            <section class="bouton">
+                <input type="reset" value="Annuler">
+                <input type="submit" value="Créer">
+            </section>
+        </form>
+    </main>
+</body>
+</html>
